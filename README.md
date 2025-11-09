@@ -48,6 +48,44 @@ Antes de começar, verifique se possui instalado:
 
 - [Node.js >= 20](https://nodejs.org/en/)
 - [pnpm >= 10.20.0](https://pnpm.io/installation)
+- [biome >= 2.3.4](https://biomejs.dev/pt-br/)
+
+
+### Biome
+
+Instalando o [biome](https://biomejs.dev/pt-br/) no projeto:
+
+```sh
+pnpm add -D -E @biomejs/biome
+```
+
+Configurando o [biome](https://biomejs.dev/pt-br/) no projeto:
+
+```sh
+pnpm exec biome init
+```
+
+Usando o [biome](https://biomejs.dev/pt-br/) no projeto:
+
+```sh
+# Formatar todos os arquivos
+pnpm exec biome format --write
+
+# Formatar arquivos específicos
+pnpm exec biome format --write <files>
+
+# Fazer lint e aplicar correções seguras a todos os arquivos
+pnpm exec biome lint --write
+
+# Fazer lint nos arquivos e aplicar correções seguras a arquivos específicos
+pnpm exec biome lint --write <files>
+
+# Formatar, fazer lint e organizar importações de todos os arquivos
+pnpm exec biome check --write
+
+# Formatar, fazer lint e organizar importações de arquivos específicos
+pnpm exec biome check --write <files>
+```
 
 ---
 
