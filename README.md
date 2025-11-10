@@ -49,7 +49,7 @@ Antes de começar, verifique se possui instalado:
 - [Node.js >= 20](https://nodejs.org/en/)
 - [pnpm >= 10.20.0](https://pnpm.io/installation)
 - [biome >= 2.3.4](https://biomejs.dev/pt-br/)
-
+- [zod >= 4.1.12](https://zod.dev/)
 
 ### Biome
 
@@ -94,8 +94,8 @@ pnpm exec biome check --write <files>
 Clone o repositório e instale as dependências:
 
 ```sh
-git clone https://github.com/seuusuario/setup-backend-node-fastify.git
-cd setup-backend-node-fastify
+git clone https://github.com/danilo-righetto/api-complete-setup-nodejs.git
+cd api-complete-setup-nodejs
 pnpm install
 ```
 
@@ -160,6 +160,10 @@ Isso criará a pasta /dist, que contém os arquivos prontos para execução:
 ```sh
 pnpm start
 ```
+
+## API Docs - Screenshots
+
+![Scalar API Documentation](./img/scalar-api-doc.png)
 
 ## ⚙️ Fonte
 
